@@ -21,36 +21,34 @@ the education improvement in different districts and schools.
 
 ## School_District_Analysis Results
 
-![1](Resources/1)
-
-
+![1.png](Resources/1.png)
 
 - How is the district summary affected?
-  -
+  - Because we have made some grades to be null, so the average of math and reading
+  - will be affected. So it may have different results during different execution.
 - How is the school summary affected?
-  -
+  - Because we are only collecting information of students in 10 to 12th grade, and students in 9th grade are not included.
+  - Therefore, the total student count, Math passing rate, reading passing rate and overall passing rate will be affected.
 
+![3.png](Resources/3.png)
 - How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-  -
+  - the performance of Thomas High School gets better compare to other schools, top 2
 
 - How does replacing the ninth-grade scores affect the following:
   - Math and reading scores by grade
+    - It becomes NaN
   - Scores by school spending
+    - not affect
   - Scores by school size
+  ![4.png](Resources/4.png)
+  ![5.png](Resources/5.png)
+    - not affect
   - Scores by school type
+    - affect in little difference
 
 
-## Election-Audit Summary
-
-This script can be used to verify the result of county votes and candidate votes.
-Since most election is doing the work of counting votes, therefore, we can simply
-change the .csv file of reading and also create a new txt file of writing the
-result. However, reading the csv file is kind of hard coded, because we know
-the position of each county and candidate, but we can later to first open the .CSV
-file but automatically search for the correct names for each part will be perfect.
-for example, we can read through a new csv file to first find titles and save
-the titles and count the total number for each title. therefore, we can easily
-open a new csv file in any other election csv file.
-Moreover, the print and writing of the script is also hardcoded, we can modifiy
-it by changing the name for example county in the script to a saved variable Which
-we have saved the name when we are trying yo read through the csv file.
+##  Summary (four major changes)
+- The THS passing rate for math, and reading
+- Average scores of THS in math and reading
+- the performance of THS compare to other schools
+- THS total student count
